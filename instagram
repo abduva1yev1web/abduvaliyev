@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding: 100px;
+        background-color: white;
+    }
+    .main0{
+        border: 1px solid #000000;
+        width: 600px;
+        padding: 70px;
+        border-radius: 150px;
+        background: linear-gradient(to right bottom, rgb(37, 6, 117), rgb(225, 43, 43), rgb(242, 176, 52), rgb(190, 67, 218));
+    }
+    .main1{
+        border: 30px solid white;
+        border-radius: 130px;
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+       
+        
+    }
+    .main2{
+        border:45px solid white ;
+        border-radius: 130px;
+        width:0px;
+        margin-left: 350px;
+        margin-top: 14px;
+    }
+    .main3{
+        border: 30px solid white;
+        height: 250px;
+        width: 250px;
+        border-radius: 360px;
+        margin-bottom: 50px;
+    }
+</style>
+<body>
+    <center>
+    <div class="project">
+        <div class="main0">
+            <center>
+            <div class="main1"> 
+                <div class="main2"></div>
+                <div class="main3"></div>
+            </div>
+            </center>
+        </div>
+    </div>
+    </center>
+</body>
+</html>
