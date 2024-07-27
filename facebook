@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+  .main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  padding: 100px, 200px, 0px, 200px;
+  background-color: rgb(193, 184, 184);
+  }
+  .page1{
+    width: 100%;
+  height: 100%;
+  color: black;
+  }
+  .page2{
+  width: 100%;
+  height: 100vh;
+  color: white;
+  }
+  .quti{
+  width: 60vh;
+  height: 50vh;
+  background-color: white;
+  color: black;
+  margin: 200px;
+  border-radius: 20px;
+  border: 1px outset black;
+  }
+</style>
+<body>
+  <center>
+  <div class="main">
+    <div class="page1"><h1 style="color: rgb(72, 72, 240); padding-top: 350px;"><h1 style="color: blue; font-size: 90px"><b>facebook</b></h1><br><h2>Connect with friends and the world <br>around you on Facebook</h2>
+    </div>
+    <div class="page2">
+      <div class="quti">
+    <input style="margin-top: 20px; font-size: 20px; width: 90%; height: 7vh; border-radius: 7px;" type="text" placeholder="Email or phone number"><br>
+    <input style="margin-top: 20px; font-size: 20px; width: 90%; height: 7vh; border-radius: 7px;" type="password" placeholder="Password" ><br>
+    <button style="margin-top: 20px; font-size: 20px; width: 90%; height: 7vh; border-radius: 7px; background-color: blue; color: white;">Login</button><br><br> 
+    <a href="">Forgot password?</a><br><br><br><br><hr><br><br>
+    <button style="width: 40%; height: 7vh; border-radius: 7px; font-size: 20px; background-color: green;">Create new account</button>
+      </div>
+    </div>
+  </div>
+  </center>
+</body>
+</html>
