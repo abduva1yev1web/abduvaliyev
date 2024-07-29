@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  *{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  }
+  body{
+    margin: 100px, 50px, 0px, 50px;
+    
+  }
+  .tepadagi{
+  background-color: aqua;
+  color: aliceblue;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  }
+  .main{
+  width:100%;
+  height: 100%;
+  }
+  .kichkina{
+  width: 15%;
+  height: 100%;
+  background-color: blueviolet;
+  color: white;
+  }
+  .katta{
+  width: 85%;
+  height: 100%;
+  background-color: bisque;
+  color: black;
+  }
+  i{
+  font-size: 30px;
+  size: 0cap;
+  }
+  ul{
+  font-size: 30px;
+  }
+  hr{
+  color: black;
+  width: 100%;
+  height: 5px;
+  }
+  button{
+  background-color: black;
+  color: white;
+  }
+</style>
+<body>
+<center>
+  <div class="tepadagi">
+    <ul>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i style="margin-top: 5px;" class="fa-solid fa-bars"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-brands fa-youtube" style="color: #ff0000;"></i>YouTube
+    </ul>
+    <ul>
+      <form action="">
+        <input style="background-color: black; color: white; width:300px; height: 4vh; margin-top: 10px; border-radius:9px;" type="text" placeholder="Search">
+        <button style="background-color: black; color: white; width:70px; height: 4vh; margin-tpo: 10px; border-radius: 8px;">Enter</button>
+        <i class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa-solid fa-microphone"></i>
+      </form>
+    </ul>
+    <ul>
+      <i class="fa-solid fa-video"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-bell"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </ul>
+  </div>
+</center>
+  <div class="main">
+    <div class="kichkina">
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asosiy</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-film"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorts</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-play"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Obunavhilar</ul><br><hr>
+     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></h1>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock-rotate-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tarix</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-bars"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pleylistlar</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-clock"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ko'rilgan</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-thumbs-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yoqtirganlar</ul><br><hr>
+     <h1>Obunalar</h1><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-bars"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barchasi</ul><br><hr>
+     <h1>Navigator</h1><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-music"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Musiqa</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-wifi"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Translatsya</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-gamepad"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Videoo'yin</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-newspaper"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yangiliklar</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-trophy"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sport</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-lightbulb"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ta'lim</ul><br>
+     <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-shirt"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moda</ul><br><hr>
+      <h1>Boshqa Imkoniyatlar</h1><br>
+      <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bolalar</ul><br><hr>
+      <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sozlamalar</ul><br>
+      <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-flag"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shikoyat</ul><br>
+      <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-question"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ma'lumot</ul><br>
+      <ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-exclamation"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fikr</ul><br><hr>
+    </div>
+    <div class="katta">
+      <button>Barchasi</button>
+      <button>Djemlar</button>
+      <button>Video o'yin</button>
+      <button>Musiqa</button>
+      <button>Jonli efir</button>
+      <button>Yog'ochli ish</button>
+      <button><Shou<button>
+      <button>Minecraft</button>
+      <button>Gaming</button>
+      <button>Animatsiya</button>
+      <button>Hunarmandchilik</button>
+      <button>Rep</button>
+      <button>Futbol</button>
+      <button>Oshpazli</button>
+    </div>
+  </div>
+</body>
+</html>
